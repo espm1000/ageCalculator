@@ -2,7 +2,6 @@ from datetime import date
 import datetime
 
 
-
 def age(birthdate):
     # Get today's object
     today = date.today()
@@ -12,8 +11,8 @@ def age(birthdate):
     return age
 
 
-thisHour = datetime.datetime.now()
-print(thisHour.hour,":",thisHour.minute,":",thisHour.second," ",thisHour.year,"-",thisHour.month,"-",thisHour.day)
+#thisHour = datetime.datetime.now()
+#print(thisHour.hour,":",thisHour.minute,":",thisHour.second," ",thisHour.year,"-",thisHour.month,"-",thisHour.day)
 
 
 firstName = str(input("What is your first name? "))
