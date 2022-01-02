@@ -11,7 +11,7 @@ def age(birthdate):
     return age
 
 
-thisHour = datetime.datetime.now()
+#thisHour = datetime.datetime.now()
 #print(thisHour.hour,":",thisHour.minute,":",thisHour.second," ",thisHour.year,"-",thisHour.month,"-",thisHour.day)
 
 
