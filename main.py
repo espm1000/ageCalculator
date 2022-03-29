@@ -21,7 +21,6 @@ birthMonth = int(input("What is the month of birth? "))
 birthDay = int(input("What is the day of birth? "))
 
 ageCalc = age(date(birthYear, birthMonth, birthDay))
-txt = "Hello, my name is {fn} {ln}.  I am currently {a} years old.".format(fn = firstName, ln = lastName, a = ageCalc)
+txt = "Hello, my name is {fn} {ln}.  I am currently {a} years old.".format(fn=firstName, ln=lastName, a=ageCalc)
 
 print(txt)
-
